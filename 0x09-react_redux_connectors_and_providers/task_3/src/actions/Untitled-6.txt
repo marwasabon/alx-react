@@ -1,0 +1,28 @@
+Sure, here are the steps to sign up for Datadog, install the datadog-agent on your server, and validate it:
+
+1. **Sign Up for Datadog**
+    - Go to the US website of Datadog: [https://app.datadoghq.com](https://app.datadoghq.com)
+    - Click on 'Get Started Free' and fill out the form to create a new account.
+    - Make sure to select the `US1` region during the sign-up process.
+
+2. **Install Datadog-Agent on web-01**
+    - Once your account is set up, you'll need to install the Datadog Agent on your server `web-01`.
+    - The Datadog Agent is a piece of software that collects and sends metrics, traces, and logs from your host to Datadog.
+    - You can find detailed instructions on how to install the Datadog Agent in the [Datadog Agent documentation](https://docs.datadoghq.com/agent/).
+
+3. **Create an Application Key**
+    - In your Datadog account, navigate to the API settings page and create a new application key.
+    - You'll need this key to authenticate with the Datadog API.
+
+4. **Update Your Intranet User Profile**
+    - Copy your Datadog API key and your Datadog application key.
+    - Paste these keys into your Intranet user profile.
+
+5. **Verify Your Server in Datadog**
+    - After installing the Datadog Agent, your server `web-01` should be visible in Datadog under the host name `XX-web-01`.
+    - You can validate this by using the Datadog API. The API allows you to send requests to Datadog, which returns information about your hosts.
+
+6. **Update the Hostname of Your Server (if needed)**
+    - If your server is not visible under the correct hostname, you may need to update the hostname of your server.
+
+Please note that you should replace `XX-web-01` with the actual hostname of your server. Let me know if you need further assistance! 😊
